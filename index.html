@@ -13,31 +13,57 @@
 </head>
 <body>
 
-<header class="container">
- <a href="#" class="navbar-brand text-primary fw-bolder">Manzi</a>
- <nav class="navbar float-right  navbar-expand-lg">
-     <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link text-dark">Portfolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">about</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">contact</a></li>
-     </ul>
-</nav>
+  <header>
+    <h2 class="logo"><a href="#">Manzi</a></h2>
+    <nav>
+        <svg id="show-nav-btn" class="nav-menu-button" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
+                fill="#6070FF" />
+        </svg>
+        <!-- Mobile Navbar Starts Here-->
+        <div id="mobile-menu" class="mobile-menu--hide">
+            <i id="hide-nav-btn" class="fa-solid fa-x mobile-menu-close-icon"></i>
+            <ul id="mobile-menu-links">
+                <li><a href="#my-portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Mobile Navbar Ends Here-->
+        <!-- Desktop Navbar Starts Here-->
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#my-portfolio">Portfolio</a></li>
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Desktop Navbar Ends Here-->
+    </nav>     
 </header>
+<!--header section ends-->
 
-<section class="container">
-    <h2 class="">I'm Manzi. <br/>Glad to see you!</h2>
-    <p class=""> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience!
-        If you like what you see and have a project you need coded, don’t hesitate to contact me.
-    </p>
-    <h3 class="">LET’S CONNECT</h3>
-    <ul class="">
-        <li><a href="#"><img src="./images//Vector.png"></a></li>
-        <li><a href="#"><img src="./images/Linkedin icon.png"></a></li> 
-        <li><a href="#"><img src="./images/Vector (1).png"></a></li>
-        <li><a href="#"><img src="./images/Vector (2).png"></a></li>
-        <li><a href="#"><img src="./images/Vector (3).png"></a></li> 
-      </ul>
+<!--headline section starts-->
+<section class="d-flex headline-main">
+    <div class="d-flex headline">
+        <h1 class="headline-heading heading-large">I'm Manzi <br> Glad to see you!</h1>
+        <p class="headline-paragraph paragraph">I’m a software developer! I can help you build a product , feature
+            or website
+            Look
+            through some of my work
+            and experience! If you like what you see and have a project you need coded, don’t hestiate to contact
+            me.
+        </p>
+        <p class="headline-sm-suport">LET’S CONNECT</p>
+        <ul class="d-flex social-icons">
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </div>
 </section>
-
+<!--headline section ends-->
 </body>
 </html>
